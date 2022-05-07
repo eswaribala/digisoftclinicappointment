@@ -18,7 +18,7 @@ public class AppointmentApp {
         appointment.setPatientMobileNo(scanner.nextLong());
         scanner.nextLine();
         System.out.println("Enter Date of appointment yyyy-mm-dd");
-         appointment.setDoa(scanner.nextLine());
+         appointment.setDoa(LocalDate.parse(scanner.nextLine()));
         System.out.println("Enter Time of appointment HH:MM");
         appointment.setTime(scanner.nextLine());
         System.out.println("Enter Doctor Name");

@@ -14,7 +14,7 @@ import java.time.LocalDate;
 public class Appointment {
 
     private long patientMobileNo;
-    private String doa;
+    private LocalDate doa;
     private String time;
     private String doctorName;
 
