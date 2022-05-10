@@ -18,5 +18,11 @@ public class Appointment {
     private String time;
     private String doctorName;
 
+    public void validateAppointment(LocalDate doa){
+
+        if(this.doa.isAfter(doa))
+            System.out.println("Valid");
+    }
+
 
 }
